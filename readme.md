@@ -14,5 +14,7 @@ Make the following necessary changes:
 Run using `npm i && npm start`
 
 Open the browser (`http://localhost:3003`) with **Developer Tools** and note the `Current Token` from the console.
+
 Go to the [Firebase Notification Tester](https://firebase.google.com/docs/cloud-messaging/js/first-message) and open **Notification Composer**.
+
 Paste the **token** and send the *Test Notification*
