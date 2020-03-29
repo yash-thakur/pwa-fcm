@@ -1,0 +1,39 @@
+{
+  "name": "pwa-fcm",
+  "version": "2.2.8",
+  "description": "A highly scalable, Progressive Web Application foundation with the best Developer Experience (DX).",
+  "scripts": {
+    "start": "pawjs --no-cache --env=development start",
+    "build": "pawjs --no-cache --env-config-path=./.env --env=production build",
+    "build:demo": "pawjs --no-cache --env-config-path=./.env --env=production build",
+    "lint": "pawjs lint",
+    "test": "pawjs --no-cache test"
+  },
+  "author": {
+    "name": "Yash Thakur",
+    "email": "thakur.yash514@gmail.com",
+    "url": "https://yashthakur.in/"
+  },
+  "contributors": [
+    {
+      "name": "Yash Thakur",
+      "email": "thakur.yash514@gmail.com",
+      "url": "https://yashthakur.in/"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@pawjs/pawjs": "^3.0.0-beta.2",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "eslint-import-resolver-webpack": "^0.12.0",
+    "firebase": "^7.13.1",
+    "fork-ts-checker-webpack-plugin": "^3.1.1",
+    "prop-types": "^15.7.2",
+    "snyk": "^1.258.1"
+  },
+  "snyk": true,
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.6.0"
+  }
+}
